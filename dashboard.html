@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cb8e3acb5a.js" crossorigin="anonymous"></script>
+    <title>Face Recognition Dashboard | Admin</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="sidenav">
+        <a href="#"><i class="fas fa-file-alt"></i>Logs</a>
+        <a href="live.html"><i class="fas fa-play"></i>Live</a>
+        <a href="#" class="active"><i class="fas fa-users"></i>Admin</a>
+        <a href="detailedPage.html"><i class="fas fa-info-circle"></i>Detailed</a>
+        <a href="#"><i class="fas fa-user"></i>Profile</a>
+    </div>
+
+    <div class="dashboard-container">
+        <!-- Replace the existing card with three image cards -->
+        <div class="image-card" onclick="showImageDetails('Image1', 'Position1')">
+            <img src="/Image/Pexels.jpg" alt="Image 1">
+            <h3>Franci who</h3>
+            <p>Farm Owner</p>
+        </div>
+
+        <div class="image-card" onclick="showImageDetails('Image2', 'Position2')">
+            <img src="/Image/Pexels.jpg" alt="Image 2">
+            <h3>Nick</h3>
+            <p>Store Keeper</p>
+        </div>
+
+        <div class="image-card" onclick="showImageDetails('Image3', 'Position3')">
+            <img src="/Image/Pexels.jpg" alt="Image 3">
+            <h3>Mazi</h3>
+            <p>Marketer</p>
+        </div>
+    </div>
+
+    <script src="firs.js"></script>
+</body>
+</html>

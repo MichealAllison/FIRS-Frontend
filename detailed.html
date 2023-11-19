@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cb8e3acb5a.js" crossorigin="anonymous"></script>
+    <title>Detailed View</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidenav">
+        <a href="#"><i class="fas fa-file-alt"></i>Logs</a>
+        <a href="live.html" onclick="activateSection('live')"><i class="fas fa-play"></i>Live</a>
+        <a href="dashboard.html"><i class="fas fa-cog"></i>Admin</a>
+        <a href="#" class="active"><i class="fas fa-info-circle"></i>Detailed</a>
+        <a href="#"><i class="fas fa-user"></i>Profile</a>
+    </div>
+
+    <div class="content-container">
+        <h1>Detailed View</h1>
+
+        <!-- Placeholder content for detailed information -->
+        <div>
+            <p>Intruder ID: <span id="intruderId"></span></p>
+            <p>Intruder Time: <span id="intruderTime"></span></p>
+            <div class="intruder-image-holder" id="intruderImageHolder"></div>
+            <!-- Add more detailed information as needed -->
+        </div>
+    </div>
+
+    <script src="firs.js"></script>
+</body>
+</html>
