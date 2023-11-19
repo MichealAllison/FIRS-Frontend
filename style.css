@@ -140,6 +140,25 @@ a:hover {
     margin-bottom: 10px;
 }
 
+/* Mobile styles */
+@media screen and (max-width: 600px) {
+    .sidenav {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+        position: static;
+    }
+
+    .dashboard-container {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .image-card {
+        max-width: 100%;
+    }
+}
+
 /* end dashboard css */
 
 
