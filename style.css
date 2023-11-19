@@ -229,3 +229,21 @@ a:hover {
 .option i {
     font-size: 18px;
 }
+     
+@media screen and (max-width: 600px) {
+.sidenav {
+        width: 100%;
+         height: auto;
+        position: static;
+        padding: 15px;
+        text-align: center;
+}
+
+.sidenav a {
+            display: block;
+            margin-bottom: 10px;
+}
+
+.content-container {
+        padding: 10px;
+}
