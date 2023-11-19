@@ -22,8 +22,8 @@
 }
 
 .sidenav a:hover {
-    background-color: #555;
-    color: white;
+    background-color: white;
+    color: #556e3c;
 }
 
 .sidenav a.active {
