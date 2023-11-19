@@ -171,7 +171,7 @@ body {
 /* Mobile view */
 @media screen and (max-width: 599px) {
     .sidenav {
-        width: 100%;
+        width: auto;
         height: auto;
         position: static;
         padding: 15px;
